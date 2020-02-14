@@ -1,4 +1,7 @@
-# classification
+# garbage-classification
+
+![](https://s2.ax1x.com/2020/02/14/1XljK0.png)
+
 ## 垃圾分类-数据分析和预处理
 * 整体数据探测
 * 分析数据不同类别分布
@@ -7,7 +10,7 @@
 * 数据可视化展示（可视化工具 pyecharts,seaborn,matplotlib)
 
 ## 代码结构
-.
+```
 ├── app_WSL-Images_resnext.py
 ├── app_garbage.py
 ├── args.py
@@ -22,10 +25,9 @@
 │   ├── garbage_label.txt
 │   ├── train1.txt
 │   └── val1.txt
-├── facebookresearch_WSL-Images_resnext.ipynb
+|
 ├── garbage-classification-using-pytorch.py
 ├── json_utils.py
-├── living.ipynb
 ├── model.py
 ├── models
 │   ├── alexnet.py
@@ -41,6 +43,11 @@
 │   ├── json_utils.py
 │   ├── logger.py
 │   └── misc.py
+```
+
+
+
+
 
 ## resnext101网络架构
 * pre_trained_model resnext101 网络架构原理
